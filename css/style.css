@@ -80,3 +80,22 @@ body {
 .live_filter__loading {
   margin: 0;
 }
+
+.list_item__img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+}
+
+.list_item__info{
+  margin-left: 10px;
+}
+
+.list_item__name{
+  margin: 0 0 10px;
+}
+
+.list_item__bio{
+  font-size: 0.75rem;
+}
