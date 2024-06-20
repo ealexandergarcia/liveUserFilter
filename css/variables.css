@@ -1,0 +1,21 @@
+:root {
+    /* Colores */
+    --primary-color: #3e57db;
+    --secondary-color: #f8f9fd;
+    --background-color: #fff;
+    --text-color: #333;
+
+    /* Tipografía */
+    --font-family: "Roboto", sans-serif;
+    --font-size: 16px;
+
+    /* Espaciado */
+    --padding: 20px;
+    --margin: 10px;
+
+    /* Sombra y bordes */
+    --box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    --border-radius: 5px;
+    --border-width: 1px;
+    --border-color: #eee;
+}
