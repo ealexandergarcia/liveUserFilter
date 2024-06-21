@@ -68,7 +68,7 @@ body {
   border-bottom-right-radius: var(--border-radius);
 }
 
-.live_filter__list_item {
+.live_filter__list_item, .live_filter__list p {
   display: flex;
   padding: 20px;
 }

@@ -15,11 +15,20 @@ live_filter__list_items = live_filter__list.querySelectorAll(".live_filter__list
 
 
 let filterData = (searchTerm) => {
+    let allHidden = true;
     live_filter__list_items.forEach((item) => {
-        if (item.innerText.toLowerCase().includes(searchTerm.toLowerCase())) {
-            item.classList.remove("hide");
-        } else {
-            item.classList.add("hide");
-        }
+      if (item.innerText.toLowerCase().includes(searchTerm.toLowerCase())) {
+        item.classList.remove("hide");
+        allHidden = false;
+      } else {
+        item.classList.add("hide");
+      }
     });
-}
+    const noResultsMessages = live_filter__list.querySelectorAll("p");
+    noResultsMessages.forEach((message) => message.remove());
+    if (allHidden) {
+      const message = document.createElement("p");
+      message.textContent = "No se han encontrado usuarios...";
+      live_filter__list.appendChild(message);
+    }
+  }
