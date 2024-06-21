@@ -4,12 +4,12 @@
 ## Características
 
 * Filtrado en vivo: la lista de usuarios se actualiza en tiempo real según la búsqueda del usuario.
-* Búsqueda por nombre, apellido o cdescripcion.
+* Búsqueda por nombre, apellido o descripcion.
 * Compatible con dispositivos móviles y de escritorio.
 
 ## Instalación
 
-1. Clona el repositorio: `git clone https://github.com/tu-usuario/live-filtering-user-list.git`
+1. Clona el repositorio: `git clone https://github.com/ealexandergarcia/liveUserFilter.git`
 2. Usar un servidor local como live server o el de tu preferencia
 
 ## Uso
