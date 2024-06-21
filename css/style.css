@@ -10,7 +10,7 @@ body {
   background-color: var(--secondary-color);
   font-family: var(--font-family);
   display: flex;
-  align-items: center;
+  align-items: var(--align-items);
   justify-content: center;
   height: 100vh;
   overflow: hidden;
@@ -105,6 +105,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  body{
+    --align-items: flex-start;
+    margin-top: 30px;
+  }
   .live_filter {
     --width: 90%;
   }

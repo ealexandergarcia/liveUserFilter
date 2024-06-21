@@ -7,6 +7,9 @@
 
     /* Tamaño */
     --width: 300px;
+
+    /* Configuracion flex */
+    --align-items: center;
     /* Tipografía */
     --font-family: "Roboto", sans-serif;
     --font-size: 16px;
