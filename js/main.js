@@ -24,11 +24,12 @@ let filterData = (searchTerm) => {
         item.classList.add("hide");
       }
     });
-    const noResultsMessages = live_filter__list.querySelectorAll("p");
+    const noResultsMessages = live_filter__list.querySelectorAll("span");
     noResultsMessages.forEach((message) => message.remove());
     if (allHidden) {
-      const message = document.createElement("p");
+      const message = document.createElement("span");
       message.textContent = "No se han encontrado usuarios...";
+      message.classList.add("no__users__found");
       live_filter__list.appendChild(message);
     }
   }
