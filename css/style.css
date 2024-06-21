@@ -77,6 +77,10 @@ body {
   border-bottom: 1px solid #eee;
 }
 
+.live_filter__list_item.hide {
+  display: none;
+}
+
 .live_filter__loading {
   margin: 0;
 }
