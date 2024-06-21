@@ -17,7 +17,7 @@ body {
 }
 
 .live_filter {
-  max-width: 300px;
+  max-width: var(--width);
   margin: 0 auto;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
@@ -102,4 +102,10 @@ body {
 
 .list_item__bio{
   font-size: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .live_filter {
+    --width: 90%;
+  }
 }
